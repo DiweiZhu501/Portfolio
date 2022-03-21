@@ -101,14 +101,25 @@
 - Based on sentiment analysis results, provided recommendation to passengers in terms of different onboard experience needs; provided advice to airlines about attributes to improve.
 
 ### [4.3. Text classification of high/low salaries based on job descriptions](https://github.com/JuniperZhuDiwei/Text-SocialNetwork-analysis/tree/main/Salaries-jd-text-classification)
-blabla
+- **Keywords: nltk text classification, Naïve Bayes classifier**
+- Built a text classification model for labeling salary level by job descriptions and generate a list of most informative features.
+  - i.e. appearing of “off shore”, “architecture”, “unix” indicates a high salary
+  - i.e. appearing of “school”, “friday”, “enjoy” indicates a low salary
+
 
 ---
 ## [5. Data Modelling with R](https://github.com/JuniperZhuDiwei/R-projects)
 ### [5.1. IMDb rating prediction](https://github.com/JuniperZhuDiwei/R-projects/tree/main/IMBb-rating-prediction)
-blabla
+- **Keywords: Recursive Feature Elimination, Polynomial regression model, Spline model**
+- Group project (6 members)
+- Built polynomial regression model (after comparing to spline model) that passed heteroskedasticity test to predict IMDb ratings of movies with selected features. 
 
 ### [5.2. Identifying most-in-need countries by socio-economic and health factors](https://github.com/JuniperZhuDiwei/R-projects/tree/main/life-exp-PCA-tree-clustering)
-blabla
+- **Keywords: Tree-based classification model, PCA, Clustering**
+- With selected socio-economic factors (GDP per capita and income per capita), and health factors (fertility rate and spending on healthcare), generated random forest classification model and clusters (with PCA) to identify countries that are eligible for international help.
+  -  Identified countries to receive help: Democratic Republic of the Congo, Liberia, Burundi, Niger, Central African Republic
+  -  PCA:
+
+  <img src="https://drive.google.com/uc?export=view&id=15KdF_A8pBzk-nOwTwJYj3ZPWTPBhdqop" width="350" height="300">
 
 
